@@ -1,0 +1,36 @@
+package com.java.cp04.Amazin.model;
+
+import com.java.cp04.Amazin.enumerator.Size;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name = "TB_ITEM")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class Item {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "NAME_ITEN")
+    private String name;
+
+    @Column(name = "KIND_ITEM")
+    private  String kind;
+
+    @Column(name = "ITEM_SECTOR")
+    private String sector;
+
+    @Column(name = "ITEM_SIZE")
+    private Size size;
+
+    @Column(name = "ITEM_PRICE")
+    private Double price;
+}
