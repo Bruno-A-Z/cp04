@@ -14,7 +14,7 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("Amazin - Mercado Express API CP04")
                         .version("1.0")
-                        .description("API REST para gestão de itens de um mercado express, com persistência Oracle, Lombok e HATEOAS."));
+                        .description("API REST para gestão de itens de um mercado express, com persistências Oracle, Lombok e HATEOAS."));
     }
 
 }
