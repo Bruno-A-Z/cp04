@@ -16,4 +16,5 @@ public class SwaggerConfig {
                         .version("1.0")
                         .description("API REST para gestão de itens de um mercado express, com persistência Oracle, Lombok e HATEOAS."));
     }
+
 }

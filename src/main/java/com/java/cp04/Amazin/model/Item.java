@@ -35,4 +35,5 @@ public class Item {
 
     @Column(name = "ITEM_PRICE")
     private Double price;
+
 }

@@ -19,4 +19,5 @@ public class ItemModelAssembler implements RepresentationModelAssembler<Item, En
                 linkTo(methodOn(ItemController.class).listarTodos()).withRel("itens"),
                 linkTo(methodOn(ItemController.class).deletar(item.getId())).withRel("deletar"));
     }
+
 }
