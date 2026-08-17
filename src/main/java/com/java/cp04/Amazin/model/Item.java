@@ -28,6 +28,7 @@ public class Item {
     @Column(name = "ITEM_SECTOR")
     private String sector;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "ITEM_SIZE")
     private Size size;
 
