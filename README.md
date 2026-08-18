@@ -222,8 +222,9 @@ Todas as respostas retornam links de navegação (`_links`) seguindo o padrão H
 
 ## Deploy
 
-Link da aplicação em produção: _(inserir link do deploy aqui)_
+Link da aplicação em produção: _([inserir link do deploy aqui](https://cp04.onrender.com))_
 
 ## Configuração do Spring Initializr
 
-> _(inserir print da configuração do Spring Initializr aqui)_
+<img width="682" height="576" alt="image" src="https://github.com/user-attachments/assets/43dc2bb4-5027-483a-bff8-49d2c0675bcd" />
+
